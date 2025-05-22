@@ -5,16 +5,16 @@ C:\Users\MASTER\Documents\GitHub\Industrial-Radio\Industrial Radio\Project Outpu
 File Design Information:
 
 Date:       22/05/25
-Time:       12:31
-Revision:   411ce9723290c5d7c8f489e301a40818f6bfd36c
+Time:       13:52
+Revision:   9b31bdbd3377330a5f286070823aebebcb312219
 Variant:    No variations
 Units used: mil
 
 Designator                Comment               Layer       Footprint                      Center-X(mil) Center-Y(mil) Rotation Description                                                                                                            
+U6                        DM-OLED096-636        TopLayer    MODULE_DM-OLED096-636          3418.715      1063.714      270      "0.96” 128 X 64 MONOCHROME GRAPHIC OLED DISPLAY MODULE - I2C"                                                        
 L2                        SRR1260-270M          TopLayer    FP-SRR1260-MFG                 3162.457      283.222       180      "FIXED IND 27UH 3.6A 45 MOHM SMD"                                                                                      
 J3                        U.FL-R-SMT-1(10)      TopLayer    FP-U_FL-R-SMT-1_10-MFG         3561.950      109.589       90       "CONN U.FL RCPT STR 50 OHM SMD"                                                                                        
 GPS                       NEO-6M-GPS            TopLayer    XCVR_NEO-6M-GPS                2558.254      320.078       0        "GPS Development Tools SparkFun GNSS-RTK Dead Reckoning Breakout - ZED-F9K (Qwiic)"                                    
-U6                        DM-OLED096-636        TopLayer    MODULE_DM-OLED096-636          3406.834      1074.425      0        "0.96” 128 X 64 MONOCHROME GRAPHIC OLED DISPLAY MODULE - I2C"                                                        
 U5                        RFM95W-868S2          TopLayer    XCVR_RFM95W-868S2              2521.809      1264.091      0        "General ISM < 1GHz LoRa™ Transceiver Module 868MHz Antenna Not Included Surface Mount"                              
 U4                        TLV2372IDR            TopLayer    D0008A_M                       802.941       423.875       0        "550 uA/Ch, 3 MHz, RRIO Operational Amplifier, 2.7 to 16 V, -40 to 125 degC, 8-pin SOIC (D8), Green (RoHS & no Sb/Br)" 
 U3                        TP4056                TopLayer    SOP127P600X175-9N              481.020       973.419       0        "Complete single cell Li-Ion battery with a constant current / constant voltage linear charger"                        

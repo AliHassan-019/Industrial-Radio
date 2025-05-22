@@ -1,0 +1,29 @@
+Removed Pin From Net: NetName=NetGPS_11 Pin=J2-1
+Added Component: Designator=GPS(XCVR_NEO-6M-GPS)
+Add component (AddParameter): Name = "Availability"; Value = "Not in stock"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/NEO-6M-GPS/u-blox/view-part/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "u-blox"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "NEO-6M-GPS"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/NEO-6M-GPS/u-blox/view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=J2(FP-U_FL-R-SMT-1_10-MFG)
+Add component: Footprint Not Found FP-SRR1260-MFG
+Added Pin To Net: NetName=NetGPS_9 Pin=GPS-9
+Added Pin To Net: NetName=GND Pin=GPS-10
+Added Pin To Net: NetName=NetGPS_11 Pin=GPS-11
+Added Pin To Net: NetName=GND Pin=GPS-12
+Added Pin To Net: NetName=GND Pin=GPS-13
+Added Pin To Net: NetName=GPS_RX Pin=GPS-20
+Added Pin To Net: NetName=GPS_TX Pin=GPS-21
+Added Pin To Net: NetName=PG Pin=GPS-23
+Added Pin To Net: NetName=GND Pin=GPS-24
+Added Pin To Net: NetName=ANT Pin=J2-1
+Added Pin To Net: NetName=NetGPS_11 Pin=J2-1
+Add Pin To Net: Unknown Pin: Pin L2-1
+Add Pin To Net: Unknown Pin: Pin L2-2
+Add Pin To Net: Unknown Pin: Pin Solar Connector-1
+Added Member To Class: ClassName=Industrial Radio Member=Component GPS NEO-6M-GPS
+Added Member To Class: ClassName=Industrial Radio Member=Component J2 U.FL-R-SMT-1(10)
+Add Class Member: Failed to add class member : Component L2 SRR1260-270M

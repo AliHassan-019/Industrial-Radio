@@ -1,0 +1,10 @@
+Added Component: Designator=J3(FP-U_FL-R-SMT-1_10-MFG)
+Add component: Footprint Not Found FP-SRR1260-MFG
+Add Pin To Net: Unknown Pin: Pin J3-1
+Add Pin To Net: Unknown Pin: Pin J3-2
+Add Pin To Net: Unknown Pin: Pin J3-3
+Add Pin To Net: Unknown Pin: Pin L2-1
+Add Pin To Net: Unknown Pin: Pin L2-2
+Add Pin To Net: Unknown Pin: Pin Solar Connector-1
+Add Class Member: Failed to add class member : Component J3 U.FL-R-SMT-1(10)
+Add Class Member: Failed to add class member : Component L2 SRR1260-270M
