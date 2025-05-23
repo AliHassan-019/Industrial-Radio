@@ -1,22 +1,10 @@
-Output: Gerber X2 Files
-Type  : GerberX2
+Output: Generates pick and place files
+Type  : Pick Place
 From  : Variant [[No Variations]] of Project [Industrial Radio.PrjPcb]
-   Generated File[PCB_Copper_Signal_Top.gbr]
-   Generated File[PCB_Copper_Signal_Bot.gbr]
-   Generated File[PCB_Legend_Top.gbr]
-   Generated File[PCB_Legend_Bot.gbr]
-   Generated File[PCB_Soldermask_Top.gbr]
-   Generated File[PCB_Soldermask_Bot.gbr]
-   Generated File[PCB_Paste_Top.gbr]
-   Generated File[PCB_Paste_Bot.gbr]
-   Generated File[PCB_Profile.gbr]
-   Generated File[PCB_NPTH_Drill.gbr]
-   Generated File[PCB_PTH_Drill.gbr]
-   Generated File[PCB.EXTREP]
-   Generated File[PCB.REP]
+   Generated File[Pick Place for PCB.csv]
 
 
-Files Generated   : 13
+Files Generated   : 1
 Documents Printed : 0
 
-Finished Output Generation At 1:53:03 pm On 22/05/2025
+Finished Output Generation At 8:01:21 pm On 23/05/2025
