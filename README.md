@@ -1,7 +1,7 @@
 
 
 
-<h1 align="center">Industrial Radio</h1>
+# Industrial Radio
 
 <p align="center">
   <b>Solar-Powered, Wireless, Industrial Current Monitoring System</b><br>
@@ -16,28 +16,38 @@
 
 ---
 
----
 
 
 ## 📑 Table of Contents
-- [Project Overview](#project-overview)
-- [Features](#features)
-- [System Architecture](#system-architecture)
-- [Block Diagram](#block-diagram)
-- [Hardware Details](#hardware-details)
+
+- [🚀 Project Overview](#project-overview)
+- [✨ Features](#features)
+- [🏗️ System Architecture](#system-architecture)
+- [🖥️ Block Diagram](#block-diagram)
+- [🛠️ Hardware Details](#hardware-details)
   - [Rogowski Coil Interface](#rogowski-coil-interface)
   - [Microcontroller Unit (MCU)](#microcontroller-unit-mcu)
   - [Display Module](#display-module)
   - [Power Management](#power-management)
   - [Communication Modules](#communication-modules)
   - [Additional Components](#additional-components)
-- [Firmware Overview](#firmware-overview)
-- [Mechanical & PCB Images](#mechanical--pcb-images)
+- [💾 Firmware Overview](#firmware-overview)
+- [🖼️ Mechanical Design](#mechanical-design)
+  - [Overall Product Design](#overall-product-design)
+  - [2-Layer Mechanical Design (Front and Back Views)](#2-layer-mechanical-design-front-and-back-views)
+  - [Internal Design (Device Render/Image)](#internal-design-device-renderimage)
+- [🖼️ PCB Design](#pcb-design)
+  - [Schematic Diagram](#schematic-diagram)
+  - [Top PCB Layer](#top-pcb-layer)
+  - [Bottom PCB Layer](#bottom-pcb-layer)
+  - [Top 3D View](#top-3d-view)
+  - [Bottom 3D View](#bottom-3d-view)
 - [Installation & Setup](#installation--setup)
 - [Usage](#usage)
 - [Troubleshooting](#troubleshooting)
 - [Contributing](#contributing)
 - [License](#license)
+
 
 ---
 
@@ -225,49 +235,95 @@ This project is licensed under the MIT License.
 
 
 
-## 🖼️ Mechanical & PCB Images
+
+
+## 🖼️ Mechanical Design
 
 ### Overall Product Design
-![Overall Product Design](https://github.com/AliHassan-019/Industrial-Radio/blob/main/Reference%20Images/over%20all%20design.png)
-*A comprehensive view of the fully assembled Industrial Radio device, showing enclosure, display, and all external features as it will appear in the field.*
+<img src="https://github.com/AliHassan-019/Industrial-Radio/blob/main/Reference%20Images/over%20all%20design.png" alt="Overall Product Design" width="400"/>
 
-### Device Render/Image
-![Device Render or Photograph](https://github.com/AliHassan-019/Industrial-Radio/blob/main/Reference%20Images/image.png)
-
-*High-quality render or photograph of the device, highlighting the physical build, connectors, and user interface.*
-
-### Top PCB Layer
-![Top Layer](https://github.com/AliHassan-019/Industrial-Radio/blob/main/Reference%20Images/Top_Layer.png)
-*Shows the top copper layer, component placement, and signal routing. Highlights analog/digital separation and EMI control.*
-
-### Bottom PCB Layer
-![Bottom Layer](https://github.com/AliHassan-019/Industrial-Radio/blob/main/Reference%20Images/Bottom_Layer.png)
-*Bottom copper layer for ground fills, passives, and mechanical support. Shows return paths and low-priority routing.*
-
-### Top 3D View
-![Top 3D View](https://github.com/AliHassan-019/Industrial-Radio/blob/main/Reference%20Images/3D_Top_View.png)
-*3D render of the assembled PCB from the top. Visualizes component heights, connectors, and fit.*
-
-### Bottom 3D View
-![Bottom 3D View](https://github.com/AliHassan-019/Industrial-Radio/blob/main/Reference%20Images/3D_Bottom_View.png)
-*3D render from the bottom, showing SMD passives, vias, and mounting clearance.*
-
-### Schematic Diagram
-![Schematic](https://github.com/AliHassan-019/Industrial-Radio/blob/main/Reference%20Images/Schematics.png)
-*Complete electrical schematic, showing all interconnections, protections, and signal flow.*
+A comprehensive view of the fully assembled Industrial Radio device, showing enclosure, display, and all external features as it will appear in the field.
 
 ### 2-Layer Mechanical Design (Front and Back Views)
-![2-Layer Mechanical Design (Front and Back Views)](https://github.com/AliHassan-019/Industrial-Radio/blob/main/Reference%20Images/2%20layer%20design.png)
-*Front and back enclosure views, showing user interface, display, mounting, and cable entry.*
+<img src="https://github.com/AliHassan-019/Industrial-Radio/blob/main/Reference%20Images/2%20layer%20design.png" alt="2-Layer Mechanical Design (Front and Back Views)" width="400"/>
+
+Front and back enclosure views, showing user interface, display, mounting, and cable entry.
+
+### Internal Design (Device Render/Image)
+<img src="https://github.com/AliHassan-019/Industrial-Radio/blob/main/Reference%20Images/image.png" alt="Device Render or Photograph" width="400"/>
+
+High-quality render or photograph of the device, highlighting the internal build, connectors, and user interface. Useful for understanding internal layout and assembly.
 
 ---
+
+## 🖼️ PCB Design
+
+### Schematic Diagram
+<img src="https://github.com/AliHassan-019/Industrial-Radio/blob/main/Reference%20Images/Schematics.png" alt="Schematic" width="400"/>
+
+Complete electrical schematic, showing all interconnections, protections, and signal flow.
+
+### Top PCB Layer
+<img src="https://github.com/AliHassan-019/Industrial-Radio/blob/main/Reference%20Images/Top_Layer.png" alt="Top Layer" width="400"/>
+
+Shows the top copper layer, component placement, and signal routing. Highlights analog/digital separation and EMI control.
+
+### Bottom PCB Layer
+<img src="https://github.com/AliHassan-019/Industrial-Radio/blob/main/Reference%20Images/Bottom_Layer.png" alt="Bottom Layer" width="400"/>
+
+Bottom copper layer for ground fills, passives, and mechanical support. Shows return paths and low-priority routing.
+
+### Top 3D View
+<img src="https://github.com/AliHassan-019/Industrial-Radio/blob/main/Reference%20Images/3D_Top_View.png" alt="Top 3D View" width="400"/>
+
+3D render of the assembled PCB from the top. Visualizes component heights, connectors, and fit.
+
+### Bottom 3D View
+<img src="https://github.com/AliHassan-019/Industrial-Radio/blob/main/Reference%20Images/3D_Bottom_View.png" alt="Bottom 3D View" width="400"/>
+
+3D render from the bottom, showing SMD passives, vias, and mounting clearance.
+
+---
+
 
 
 ## 📝 Mechanical Design Guide
 
 1. **2-Layer Mechanical Design (Front and Back Views):**
    - Familiarize yourself with the device's external appearance. The front view shows the display and user-accessible features; the back view reveals mounting and cable management. Use for installation planning and enclosure fit.
-2. **Device with All Components Marked:**
-   - Use this annotated image for assembly, wiring, and troubleshooting. Each part is labeled for easy identification by users and maintenance staff.
+2. **Internal Design (Device Render/Image):**
+   - Use this render or photograph to understand the internal layout, wiring, and assembly of the device. This is helpful for troubleshooting, upgrades, and maintenance.
 3. **Overall Mechanical Design:**
    - Visualize how all modules fit inside the enclosure. Check for correct positioning, wiring space, and airflow. Useful for presentations and technical documentation.
+
+---
+
+## 🙋‍♂️ Support & Contact
+
+For questions, technical support, or to report issues, please open an issue on the [GitHub repository](https://github.com/AliHassan-019/Industrial-Radio) or contact the project maintainer at [Ali Hassan](mailto:alihassan.pk019@gmail.com).
+
+---
+
+## 🤝 Contributing
+
+Contributions, bug reports, and feature requests are welcome! To contribute:
+
+1. Fork the repository
+2. Create a new branch for your feature or fix
+3. Commit your changes with clear messages
+4. Open a pull request describing your changes
+
+For major changes, please open an issue first to discuss your ideas.
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+---
+
+<p align="center">
+  <b>Thank you for using and supporting Industrial Radio!</b><br>
+  <i>Empowering industrial IoT with robust, wireless, and solar-powered monitoring solutions.</i>
+</p>
